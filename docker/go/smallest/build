@@ -1,0 +1,4 @@
+#!/bin/sh
+
+go build hello.go
+docker build --tag hello .
